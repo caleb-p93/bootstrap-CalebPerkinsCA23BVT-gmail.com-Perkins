@@ -8,45 +8,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
     <div class="container">
-
         <div class="row">
-
             <div class="col-md-3">
-
                 <!-- Sidebar -->
                 <div class="sidebar">
-
                     <!-- Header -->
                     <h3>My Inbox</h3>
-
                     <!-- Folders/List -->
                     <ul class="list-group">
                         <li class="list-group-item">Inbox</li>
                         <li class="list-group-item">Sent</li>
                         <li class="list-group-item">Drafts</li>
                     </ul>
-
                     <!-- Compose and Reply Buttons -->
                     <button class="btn btn-primary">Compose</button>
                     <button class="btn btn-secondary">Reply</button>
                 </div>
             </div>
             <div class="col-md-9">
-                
                 <!-- Main Content -->
                 <div class="main-content">
-                
                     <!-- Header -->
                     <h1>Welcome to Your Inbox</h1>
-                
                     <!-- Search Bar -->
                     <input type="text" class="form-control" placeholder="Search...">
-                
                     <!-- Messages/Emails -->
                     <div class="messages">
-                
                         <!-- Sample Message -->
                         <div class="message">
                             <input type="checkbox" class="form-check-input">
@@ -54,7 +42,6 @@
                             <strong>Subject:</strong> Hello<br>
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante nec dolor dapibus sagittis.</span>
                         </div>
-                
                         <!-- Sample Message -->
                         <div class="message">
                             <input type="checkbox" class="form-check-input">
@@ -62,7 +49,6 @@
                             <strong>Subject:</strong> Meeting Reminder<br>
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante nec dolor dapibus sagittis.</span>
                         </div>
-                
                         <!-- Sample Message -->
                         <div class="message selected">
                             <input type="checkbox" class="form-check-input">
@@ -71,13 +57,14 @@
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante nec dolor dapibus sagittis.</span>
                         </div>
                     </div>
-                
                     <!-- Displayed Message/Email -->
                     <div class="displayed-message">
                         <h2>Selected Message</h2>
                         <strong>Sender:</strong> Alice Johnson<br>
                         <strong>Subject:</strong> Important Announcement<br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante nec dolor dapibus sagittis.</p>
+                        <!-- Text Area -->
+                        <textarea class="form-control" rows="5" placeholder="Type your message here..."></textarea>
                     </div>
                 </div>
             </div>

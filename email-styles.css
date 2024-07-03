@@ -9,7 +9,6 @@ body {
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: #f0f0f0;
     padding: 20px;
 }
 
@@ -38,9 +37,36 @@ body {
     margin-top: 20px;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
+
+/* Mobile Styles */
+@media (max-width: 767px) {
     .sidebar {
-        margin-bottom: 20px;
+        display: none;
+    }
+    .main-content {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+    .sidebar {
+        display: block;
+        width: 100%;
+    }
+    .main-content {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+    .sidebar {
+        display: block;
+    }
+    .main-content {
+        margin-left: 25%;
     }
 }
